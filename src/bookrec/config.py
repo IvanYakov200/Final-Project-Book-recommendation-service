@@ -36,7 +36,7 @@ class Config:
 
     # --- нейросетевой ранжировщик ---
     nn_hidden: tuple = (128, 64)
-    nn_epochs: int = 15
+    nn_epochs: int = 20
     nn_lr: float = 1e-3
     nn_batch_size: int = 2048
     nn_dropout: float = 0.2
